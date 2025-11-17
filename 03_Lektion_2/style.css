@@ -1,0 +1,42 @@
+h1 {
+    color: red;
+    outline-style: dotted;
+    outline-color: #ff0000
+}
+
+h2 {
+    color: green;
+    background-color: black;
+    width: 50%;
+    line-height: ;
+}
+
+h1,
+h2 {
+    color: grey;
+}
+
+.div1 {
+    color: yellow;
+}
+
+#did1 {
+    color: black
+}
+
+ol b {
+    color: green;
+}
+
+li:first-child {
+    color: orange;
+}
+
+a:hover {
+    background-color: yellow;
+}
+
+a:link,
+a:visited {
+    color: black;
+}
