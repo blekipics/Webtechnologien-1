@@ -1,6 +1,10 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 h1 {
-    color: green;
-    background-color: rgb(145, 3, 3);
+    color: #4a3267;
+    background-color: #de638a;
     line-height: 1em;
     font-size: 40px;
 }
@@ -11,21 +15,66 @@ h1 {
     width: 50%;
     border-style: solid;
         border-color: grey;
-    }
-    
-    table,
-    th,
-    td {
-        border: 1px solid;
-        padding: 10px;
-        border-collapse: collapse;
-        width: 60%;
-    }
-    
-    th {
-        background-color: lightgreen;
-    }
-    
-    td {
-        background-color: lightblue;
 }
+
+table,
+thead,
+tbody,
+th,
+td {
+    border: 1px solid;
+    padding: 10px;
+    border-collapse: collapse;
+    width: 60%;
+}
+    
+th {
+    background-color: #4a3267;
+}
+    
+td {
+    background-color: #de638a;
+}
+
+#feedback {
+    width: 50%;
+    max-width: 600px; /* optional */
+    height: 160px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #bbb;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    resize: vertical;
+    line-height: 1em;
+}
+
+
+label{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 3px
+}
+
+button {
+    width: 30%;
+    height: 40px;
+    margin: 3px;
+    padding: 5px;
+    background-color: hsl(0, 0, 10%);
+    border: 1px solid #bbb;
+    border-radius: 6px;
+}
+
+button:hover{
+    background-color: #f7b9c4;
+}
+
+button:active{
+    background-color: #ff7c94;
+}
+
+caption{
+    font-size: 50px;
+}
+
