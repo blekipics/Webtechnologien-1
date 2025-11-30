@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="de-CH">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilder einfügen</title>
+</head>
+
+<body>
+    <!--Verschiedene Tabellen elemente-->
+
+    <form action="index.html" method="get">
+
+        <label for="Vorname">Vorname:</label>
+        <input type="text" name="Vorname" id="Vorname" placeholder="Vorname">
+
+        <br>
+        <label>Nachname:
+            <input type="text" name="Nachname" placeholder="Nachname" required>
+        </label>
+        <br>
+        <input type="submit" name="Speichern" value="Speichern">
+
+        <br>
+        <label>Werbung OK?:</label>
+        <input type="checkbox" name="ok">
+
+        <select name="Land">
+            <option>Schweiz</option>
+            <option>Österreich</option>
+            <option>Deutschland</option>
+        </select>
+
+        <br>
+    </form>
+    <br>
+    <br>
+
+    <!--Tabellen-->
+    <figure>
+        <caption>Umsatzzahlen</caption>
+        <table border="1">
+
+            <thead>
+                <tr>
+                    <th>Ü1</th>
+                    <th>Ü2</th>
+                    <th>Ü3</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td rowspan="2">Feld1</td>
+                    <td>feld2</td>
+                    <td>Feld3</td>
+                </tr>
+                <tr>
+
+                    <td>feld2</td>
+                    <td>Feld3</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Feld1.2</td>
+                    <td colspan="2">feld2.1</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <figcaption>Aus dem Jahr 2024</figcaption>
+    </figure>
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="de-CH">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aufgabe 1</title>
+</head>
+
+<body>
+
+    <h1>Kontaktinformationen</h1>
+    <hr>
+
+    <form>
+        <fieldset>
+            <legend>Persönliche Informationen</legend>
+            <label>Vorname:
+                <input type="text" name="Vorname" placeholder="Ihr Vorname" required>
+                <sup>*</sup>
+            </label>
+            <label>Nachname:
+                <input type="text" name="Nachname" placeholder="Ihr Nachname" required>
+                <sup>*</sup>
+            </label>
+            <br>
+            <label>Name der Strasse:
+                <input type="text" name="Strasse" placeholder="Ihr Strassenname">
+            </label>
+
+            <label>Hausnummer:
+                <input type="text" name="Hausnummer" placeholder="Ihre Hausnummer">
+            </label>
+            <br>
+            <label>Postleitzahl:
+                <input type="text" name="PLZ" placeholder="Postleitzahl">
+            </label>
+            <label>Wohnort:
+                <input type="text" name="Wohnort" placeholder="Ihr Wohnort">
+            </label>
+            <label>Land:
+                <select name="Land">
+                    <option value="CH">Schweiz</option>
+                    <option value="AT">Österreich</option>
+                    <option value="DE">Deutschland</option>
+                </select>
+            </label>
+
+            <br>
+            <label>Telefonnummer (Privat):
+                <input type="text" name="Telefonnummer" placeholder="Ihre Telefonnummer" required>
+                <sup>*</sup>
+            </label>
+            <label>Telefonnummer (Mobil)
+                <input type="text" name="Mobilnummer" placeholder="Mobilnummer" required>
+                <sup>*</sup>
+            </label>
+            <br>
+            <label>E-Mail:
+                <input type="text" name="Email" placeholder="Ihre E-Mail adresse" required>
+                <sup>*</sup>
+            </label>
+
+            <h2>Angaben zu ihrer Person</h2>
+
+            <label>Geburtsdatum:
+                <input type="date" name="Geburtsdatum">
+            </label>
+            <br><br>
+            <label>Geschlecht: <br>
+                <label>Männlich:
+                    <input type="radio" name="M">
+                </label>
+                <label>Weiblich:
+                    <input type="radio" name="F">
+                </label>
+
+            </label>
+            <br><br>
+
+            <label>Zivilstand: <br>
+                <label>ledig:
+                    <input type="radio" name="ledig">
+                </label>
+                <label>Verheiratet:
+                    <input type="radio" name="Verheiratet">
+                </label>
+
+            </label>
+
+
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

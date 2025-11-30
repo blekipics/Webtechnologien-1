@@ -9,5 +9,23 @@ h1 {
     color: black;
     background-color: orange;
     width: 50%;
-    border: solid
+    border-style: solid;
+        border-color: grey;
+    }
+    
+    table,
+    th,
+    td {
+        border: 1px solid;
+        padding: 10px;
+        border-collapse: collapse;
+        width: 60%;
+    }
+    
+    th {
+        background-color: lightgreen;
+    }
+    
+    td {
+        background-color: lightblue;
 }
