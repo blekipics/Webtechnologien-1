@@ -51,9 +51,24 @@ td {
 
 
 label{
+    box-sizing: border-box;
+        display: inline-block;
+        width: 100%;
+        padding: 2px;
+        margin: 0.5px;
     font-weight: bold;
     display: block;
-    margin-bottom: 3px
+    margin-bottom: 3px;
+    }
+    
+    span {
+        display: inline-block;
+        width: 80px;
+    }
+    
+    input {
+        display: inline-block;
+        width: 300px;
 }
 
 button {

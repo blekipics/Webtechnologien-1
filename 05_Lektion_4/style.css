@@ -1,0 +1,20 @@
+div {
+    background-color: green;
+    padding: 10px;
+    min-width: 300px;
+    max-width: 400px;
+}
+
+p {
+    background-color: hsl(143, 83%, 50%);
+    ;
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    padding-bottom: 5px;
+    border-top-style: solid;
+    border-top-width: 5px;
+    height: 2em;
+    margin: 10px;
+    overflow: scroll;
+}
