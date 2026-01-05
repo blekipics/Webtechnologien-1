@@ -1,0 +1,20 @@
+span {
+    width: 100px;
+    display: inline-block;
+}
+
+.l1 {
+    width: 100px;
+    display: inline-block;
+}
+
+ol li {
+    font-family: arial;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.3em;
+}
+
+ol {
+    list-style-type: georgian;
+}
