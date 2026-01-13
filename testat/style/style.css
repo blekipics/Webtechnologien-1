@@ -139,3 +139,21 @@ ul li a {
 .news li:hover {
     text-decoration: underline;
 }
+
+textarea{
+    background-image: linear-gradient(to right, rgba(255,0,0,0),#de638a);
+}
+
+.btn{
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-image: linear-gradient(to left, #de638a, #4a3267);
+    color: white;
+    border-radius: 3px;
+}
+
+.btn:hover,
+.btn:focus
+{
+    background-color: #f7b9c4;
+}
