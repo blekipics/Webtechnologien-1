@@ -8,15 +8,7 @@ h1 {
     background-color: #de638a;
     line-height: 1em;
     font-size: 40px;
-}
-
-#pre1 {
-    color: black;
-    background-color: orange;
-    width: 50%;
-    border-style: solid;
-        border-color: grey;
-}
+    }
 
 table,
 thead,
@@ -36,25 +28,8 @@ th {
     
 td {
     background-color: #de638a;
-}
-
-#feedback {
-    width: 50%;
-    max-width: 600px; /* optional */
-    height: 160px;
-    padding: 10px;
-    border-radius: 6px;
-    border: 1px solid #bbb;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    resize: vertical;
-    line-height: 1em;
-}
-
-
-label{
     box-sizing: border-box;
-        display: inline-block;
+    display: inline-block;
         width: 100%;
         padding: 2px;
         margin: 0.5px;
@@ -114,46 +89,17 @@ nav a {
     font-weight: 500;
 }
 
-nav a:hover {
+        nav a:hover {
     text-decoration: underline;
-}
+    }
 
-.navbar li a {
-    font-family: "Bebas Neue", sans-serif;
-    box-sizing: border-box;
-    background-color: #de638a;
-    border: #000000;
-
-}
-
-.news {
-    list-style: none;
-    text-decoration: none;
-}
-
-ul li a {
+        ul li a {
     text-decoration: none;
     color: #4a3267;
+    }
+textarea {
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #de638a);
 }
 
-.news li:hover {
-    text-decoration: underline;
-}
 
-textarea{
-    background-image: linear-gradient(to right, rgba(255,0,0,0),#de638a);
-}
 
-.btn{
-    display: inline-block;
-    padding: 0.5rem 1rem;
-    background-image: linear-gradient(to left, #de638a, #4a3267);
-    color: white;
-    border-radius: 3px;
-}
-
-.btn:hover,
-.btn:focus
-{
-    background-color: #f7b9c4;
-}

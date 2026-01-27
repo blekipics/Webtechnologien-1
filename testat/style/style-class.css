@@ -1,0 +1,33 @@
+.navbar li a {
+    font-family: "Bebas Neue", sans-serif;
+    box-sizing: border-box;
+    background-color: #de638a;
+    border: #000000;
+
+}
+
+.news {
+    list-style: none;
+    text-decoration: none;
+}
+
+.news li:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-image: linear-gradient(to left, #de638a, #4a3267);
+    color: white;
+    border-radius: 3px;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #f7b9c4;
+}
+
+.container {
+    float: right;
+}

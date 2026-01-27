@@ -1,0 +1,16 @@
+.b2 {}
+
+.container {
+    border: 1px, solid, red;
+
+}
+
+.container>div {
+    width: 100px;
+    float: right;
+}
+
+.clearfix {
+    overflow: auto;
+    zoom: 1;
+}
