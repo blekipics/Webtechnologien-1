@@ -1,8 +1,13 @@
 .navbar li a {
+    display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
     font-family: "Bebas Neue", sans-serif;
     box-sizing: border-box;
     background-color: #de638a;
     border: #000000;
+    margin: 5px;
+        padding: 3px;
 
 }
 
@@ -29,5 +34,5 @@
 }
 
 .container {
-    float: right;
+    float: left;
 }

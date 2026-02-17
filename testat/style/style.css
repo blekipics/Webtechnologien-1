@@ -3,6 +3,17 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    @media (min-widht: 1024px) {
+        display: flex;
+    }
+
+    @media (min-width: 400px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}
 h1 {
     color: #4a3267;
     background-color: #de638a;
